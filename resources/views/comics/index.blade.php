@@ -6,7 +6,7 @@
     <div class="container">
         <div class=" d-flex justify-content-between align-items-center">
             <h1 class="my-3">Comics Page</h1>
-            <a name="" id="" class="btn btn-primary m-0" href="{{route('comics.create')}}" role="button">Add Comic</a>
+            <a name="" id="" class="btn btn-primary m-0" href="{{route('comics.create')}}" role="button">Add New Comic</a>
         </div>
 
         <div class="cards d-flex justify-content-center flex-wrap">
