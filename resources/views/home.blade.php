@@ -1,7 +1,9 @@
 @extends('layout.app')
 
-@section('title', 'Comics Page')
+@section('title', 'Home Page')
     
 @section('content')
-    <h1>DC Comics</h1>
+    <div class="container">
+        <h1>DC Comics</h1>
+    </div>
 @endsection
