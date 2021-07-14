@@ -11,7 +11,7 @@
 
         <div class="cards d-flex justify-content-center flex-wrap">
             @foreach ($comics as $comic)
-            <a href="">
+            <a href="{{route('comics.show', $comic->id)}}">
                 <div class="card text-left m-3" style="width: 18rem;">
                   <img class="card-img-top" src="{{$comic->cover_image}}" alt="">
                   <div class="card-body">
